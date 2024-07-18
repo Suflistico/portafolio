@@ -1,0 +1,28 @@
+body {
+    background-image: url('.//assets/Fondo3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 56px; /* Ajusta este valor si la altura de tu navbar es diferente */
+    margin-bottom: 56px; /* Ajusta este valor si la altura de tu footer es diferente */
+}
+h2{
+    color: white;
+}
+p{
+    color: whitesmoke;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 8;
+    }
+}
+
+p{
+    animation: fadeIn 2s ease-in-out;
+}

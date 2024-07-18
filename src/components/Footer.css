@@ -1,0 +1,10 @@
+.custom-footer {
+    background-color: #333; 
+    color: #fff; 
+}
+.custom-footer a {
+    color: #fff; 
+}
+.custom-footer a:hover {
+    color: #ddd; 
+}
