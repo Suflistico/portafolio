@@ -1,31 +1,13 @@
 [
     {
         "title": "CV",
-        "description": "Curriculum Vitae",
-        "link": "https://enlaceproyecto1.com"
+        "description": "Curriculum Vitae",       
+        "preview": "/data/CVPAPP.pdf"   
     },
     {
-        "title": "Proyecto 1",
-        "description": "Servicio de Limpieza",
-        "link": "https://suflistico.github.io/landing-page/",
-        "preview": "https://suflistico.github.io/landing-page/"
-    },
-    {
-        "title": "Proyecto 2",
-        "description": "Servicio de Limpieza",
-        "link": "https://suflistico.github.io/landing-page/",
-        "preview": "https://suflistico.github.io/landing-page/"
-    },
-    {
-        "title": "Proyecto 3",
-        "description": "Servicio de Limpieza",
-        "link": "https://suflistico.github.io/landing-page/",
-        "preview": "https://suflistico.github.io/landing-page/"
-    },
-    {
-        "title": "Proyecto 4",
-        "description": "Servicio de Limpieza",
-        "link": "https://suflistico.github.io/landing-page/",
-        "preview": "https://suflistico.github.io/landing-page/"
+        "title": "Proyecto Desafio Pizza",
+        "description": "Proyecto aplicado con React Js, con un diseño simple. el contenido de los productos se gestiona a traves de archivo JSON para una actualizacion facil y simple. Incluye carrito de compra y contador de unidades agregadas. todo integrado con Bootstrap y CSS",
+        "link": "https://pizzeria-paolo.netlify.app",
+        "preview": "https://pizzeria-paolo.netlify.app"
     }
 ]
