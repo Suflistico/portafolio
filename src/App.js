@@ -16,7 +16,7 @@ function App() {
                         y distribución. Desempeñándome principalmente en la administración de sistemas WMS con
                         conocimientos en Expert Storage, Infor, Blue yonder, ewms Zara. Actualmente me encuentro
                         ampliando mis conocimientos en ámbito de desarrollo web con aplicaciones HTML,
-                        JavaScript, CSS, ReactJS, Node.jS. Profesional con alta motivación hacia el cumplimiento de
+                        JavaScript, CSS, React JS, Node.jS. Profesional con alta motivación hacia el cumplimiento de
                         los objetivos de la compañía, con capacidad de identificar, analizar, planificar e implementar
                         mejoras.</p>
                 </section>
