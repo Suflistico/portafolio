@@ -16,7 +16,7 @@ function App() {
                     <div className="row align-items-center mt-4">
                         {/* Columna para la imagen */}
                         <div className="col-md-4 text-center">
-                            <img src="/ppanguinao.jpeg" alt="Mi Foto" className="img-fluid rounded-circle mb-3" style={{ maxWidth: '290px' }}/>
+                            <img src="/ppanguinao.jpg" alt="Mi Foto" className="img-fluid rounded-circle mb-3" style={{ maxWidth: '290px' }}/>
                         </div>
                         {/* Columna para el texto */}
                         <div className="col-md-8">
