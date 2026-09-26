@@ -1,14 +1,42 @@
 [
-    {
-        "title": "Proyecto Desafio Pizza",
-        "description": "Proyecto aplicado con React Js, con un diseño simple. el contenido de los productos se gestiona a traves de archivo JSON para una actualizacion facil y simple. Incluye carrito de compra y contador de unidades agregadas. todo integrado con Bootstrap y CSS",
-        "link": "https://pizzeria-paolo.netlify.app",
-        "preview": "https://pizzeria-paolo.netlify.app"
-    },
-    {
-        "title": "Proyecto: En Construccion",
-        "description": "Pagina en construccion",
-        "link": "",
-        "preview": ""
+  {
+    "id": "pizzeria-paolo",
+    "title": "Pizzería Paolo",
+    "description": "Una aplicación de pizzería con catálogo gestionado desde un archivo JSON, carrito de compras y contador de unidades. Un proyecto para aplicar React en una experiencia de compra sencilla.",
+    "link": "https://pizzeria-paolo.netlify.app",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "Bootstrap",
+      "CSS"
+    ],
+    "cover": {
+      "label": "PROYECTO WEB / REACT",
+      "title": "Pizzería",
+      "accent": "Paolo.",
+      "caption": "Catálogo · Carrito de compras",
+      "theme": "pizza"
     }
+  },
+  {
+    "id": "control-financiero-web",
+    "title": "Control Financiero Web",
+    "description": "Aplicación de finanzas personales para registrar ingresos y gastos, gestionar compras a crédito y sus cuotas, y definir presupuestos mensuales. Incluye un panel con evolución de movimientos, gastos por categoría y alertas de presupuesto.",
+    "link": "https://controlfinancieroweb.netlify.app/",
+    "status": "Proyecto publicado",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "PostgreSQL"
+    ],
+    "cover": {
+      "label": "APLICACIÓN FULL STACK / FINANZAS",
+      "title": "Tus finanzas,",
+      "accent": "más claras.",
+      "caption": "Ingresos · Gastos · Presupuestos",
+      "theme": "finance"
+    }
+  }
 ]

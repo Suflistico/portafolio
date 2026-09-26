@@ -1,19 +1,6 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './Navbar.css'; // Importa el archivo CSS
-
+import React, { useState } from 'react';
 function Navbar() {
-    return (
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
-            <div className="container-fluid">
-                <h5>Mi Portafolio</h5>
-                <h3>Pablo Panguinao</h3>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </nav>
-    );
+  const [open, setOpen] = useState(false);
+  return <header className="site-header"><nav className="page-width navigation" aria-label="Navegación principal"><a className="brand" href="#hero-title" onClick={() => setOpen(false)}>pablo<span>.</span></a><button className="menu-toggle" type="button" aria-expanded={open} aria-controls="main-menu" onClick={() => setOpen(!open)}>{open ? 'Cerrar' : 'Menú'}</button><div id="main-menu" className={`nav-links${open ? ' is-open' : ''}`}><a href="#sobre" onClick={() => setOpen(false)}>Sobre mí</a><a href="#projects" onClick={() => setOpen(false)}>Proyectos</a><a href="#contacto" onClick={() => setOpen(false)}>Contacto <span aria-hidden="true">↗</span></a></div></nav></header>;
 }
-
 export default Navbar;
